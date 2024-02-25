@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jornada</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/PBioEsfera.png">
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/jornada.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href=""><img src="assets\images\LOGO.png" alt="" /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="404.html">Conquistas</a></li>
+          <li><a href="conteudos.html">Conteúdos</a></li>
+          <li><a href="jornada.html">Jornada</a></li>
+          <li><a href="404.html">Meu perfil</a></li>
+          <li><a href=" Sobrenos.html">Sobre nós</a></li>
+        </ul>
+      </nav>
+      <div id="btnsH">
+        <button id="Btn1">Cadastre-se</button>
+        <button id="Btn2">Entrar</button>
+      </div>
+    </header>
+    <main>
+      <div id="jornada">
+        <img src="assets\SVG\trilha.svg" alt="" id="trilha" />
+        <button class="botaoComImagem" id="botaoFase0">
+          <img src="assets\SVG\fase0.svg" alt="" />
+        </button>
+        <div id="modal0" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>0: Introdução a Biologia</h2>
+            <img
+              src="assets\SVG\barraPorcentagem.svg"
+              alt=""
+              style="margin: 2vh 0"
+            />
+            <img src="assets\SVG\infoFase.svg" alt="" />
+            <div id="plays">
+              <section>
+                <button
+                  class="botaoComImagem btn-navegacao"
+                  data-destino="aula.html"
+                >
+                  <img src="assets\SVG\playBtn.svg" alt="" class="play" />
+                </button>
+                <p>Aula</p>
+              </section>
+              <section>
+                <button
+                  class="botaoComImagem btn-navegacao"
+                  data-destino="404.html"
+                >
+                  <img src="assets\SVG\playBtn.svg" alt="" class="play" />
+                </button>
+                <p>Jogo</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <button class="botaoComImagem" id="botaoFase1">
+          <img src="assets\SVG\fase1.svg" alt="" />
+        </button>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>1: Fase pioneira</h2>
+            <img
+              src="assets\SVG\barraPorcentagem.svg"
+              alt=""
+              style="margin: 2vh 0"
+            />
+            <img src="assets\SVG\infoFase.svg" alt="" />
+            <div id="plays">
+              <section>
+                <button
+                  class="botaoComImagem btn-navegacao"
+                  data-destino="404.html"
+                >
+                  <img src="assets\SVG\playBtn.svg" alt="" class="play" />
+                </button>
+                <p>Aula</p>
+              </section>
+              <section>
+                <button
+                  class="botaoComImagem btn-navegacao"
+                  data-destino="404.html"
+                >
+                  <img src="assets\SVG\playBtn.svg" alt="" class="play" />
+                </button>
+                <p>Jogo</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets\SVG\arbusto3.svg"
+          alt=""
+          id="arbusto1"
+          class="arbusto"
+        />
+        <img
+          src="assets\SVG\arbusto2.svg"
+          alt=""
+          id="arbusto2"
+          class="arbusto"
+        />
+        <img
+          src="assets\SVG\arbusto1.svg"
+          alt=""
+          class="arbusto"
+          id="arbusto3"
+        />
+      </div>
+    </main>
+    <footer>
+      <div id="borderFoo">
+        <img src="assets\images\LOGO2.png" alt="" />
+      </div>
+      <div id="listFoo">
+        <ul>
+          <li><a href="Sobrenos.html">Sobre nós</a></li>
+          <li><a href="">Contatos</a></li>
+          <li><a href="Mailto:feedbackobioesfera@gmail.com">Feedback</a></li>
+          <li><a href="">Sobre Projeto</a></li>
+          <li><a href="">Redes Sociais</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="javascript\btnCadastro.js"></script>
+    <script src="javascript\ativarModal.js"></script>
+    <script src="javascript/botao_navegar.js"></script>
+  </body>
+</html>
